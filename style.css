@@ -134,3 +134,8 @@
     -webkit-text-fill-color: transparent;
     animation: floating 2s linear infinite;
 }
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
