@@ -5,6 +5,7 @@
     height: auto;
     background-color: transparent;
     scroll-behavior: smooth;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .about {
     height: 100vh;
@@ -56,6 +57,10 @@
     align-items: center;
     overflow: scroll;
 }
+#summary a{
+    color: maroon !important;
+    text-decoration: none;
+}
 .experience {
     position:relative;
     display: flex;
@@ -75,6 +80,10 @@
     justify-content: center;
     align-items: center;
     overflow: scroll;
+}
+#projects a{
+    color: maroon !important;
+    text-decoration: none;
 }
 .skills {
     position:relative;
@@ -134,8 +143,3 @@
     -webkit-text-fill-color: transparent;
     animation: floating 2s linear infinite;
 }
-.ball {
-    position: absolute;
-    border-radius: 100%;
-    opacity: 0.7;
-  }
