@@ -106,6 +106,10 @@
     align-items: center;
     overflow: scroll;
 }
+#teaching a{
+    color: maroon !important;
+    text-decoration: none;
+}
 .footer {
     position:relative;
     display: flex;
